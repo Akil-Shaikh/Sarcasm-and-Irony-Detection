@@ -1,0 +1,60 @@
+{
+  "best_model": "Optimized 3-Class Attention Bi-LSTM",
+  "accuracy": 0.7257,
+  "macro_f1": 0.7266,
+  "classes": [
+    "regular",
+    "irony",
+    "sarcasm"
+  ],
+  "confusion_matrix": [
+    [
+      2709,
+      424,
+      250
+    ],
+    [
+      189,
+      2435,
+      584
+    ],
+    [
+      156,
+      1110,
+      2034
+    ]
+  ],
+  "classification_report": {
+    "regular": {
+      "precision": 0.8870333988212181,
+      "recall": 0.8007685486254803,
+      "f1-score": 0.8416964424421314,
+      "support": 3383.0
+    },
+    "irony": {
+      "precision": 0.6135046611237087,
+      "recall": 0.7590399002493765,
+      "f1-score": 0.678556499930333,
+      "support": 3208.0
+    },
+    "sarcasm": {
+      "precision": 0.7092050209205021,
+      "recall": 0.6163636363636363,
+      "f1-score": 0.6595330739299611,
+      "support": 3300.0
+    },
+    "accuracy": 0.7257102416338085,
+    "macro avg": {
+      "precision": 0.736581026955143,
+      "recall": 0.7253906950794976,
+      "f1-score": 0.7265953387674751,
+      "support": 9891.0
+    },
+    "weighted avg": {
+      "precision": 0.7389883237422601,
+      "recall": 0.7257102416338085,
+      "f1-score": 0.7280080336191599,
+      "support": 9891.0
+    }
+  }
+}
